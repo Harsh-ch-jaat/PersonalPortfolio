@@ -22,3 +22,12 @@ window.addEventListener('scroll', () => {
     header.classList.toggle('sticky', window.scrollY > 100);
 });
 
+// @media queries
+document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.querySelector('.navbar');
+
+    menuIcon.addEventListener('click', function() {
+        navbar.classList.toggle('active');
+    });
+});
