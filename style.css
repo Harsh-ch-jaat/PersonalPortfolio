@@ -559,3 +559,28 @@ color:var(--main-color);
 }
 /*breakpoints @mediaQueries*/
 
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+    
+    .navbar a {
+        margin: 10px 0;
+        text-align: center;
+    }
+    
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+}
