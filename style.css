@@ -38,13 +38,19 @@ body{
     padding:2rem 0%;
     background:transparent;
     display:flex;
-    align-items: center;
+    align-items: end;
     z-index:100;
     justify-content: space-between;
     transition: .3s;   
 }
+.header .navbar{
+    background-color: #000000;
+    padding: 11px 12px 12px 17px;
+    border-radius: 20px;
+    margin: -12px 10px 0px 0px;
+}
 .header.sticky{
-    background: var(--bg-color);
+    background: transparent;
 }
 
 .logo{
